@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module", // import export
+    },
+    "rules": {
+        // "no-console": ["error"],
+        // "indent": ["error", 2],
+        // "quotes": ["error", "single"],
+        // "semi": ["error", "always"],
+        "no-unused-vars": ["warn"],
+        // "camelcase": ["warn"],
+        "linebreak-style": "off"
+    },
+    "extends": ["airbnb-base"]
+}

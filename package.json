@@ -1,0 +1,23 @@
+{
+  "name": "eslint-prettier-husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint app.js",
+    "fix": "eslint --fix app.js",
+    "format": "prettier --write app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  }
+}
